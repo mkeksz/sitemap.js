@@ -1,8 +1,6 @@
 import {
   SitemapIndexStream,
   SitemapAndIndexStream,
-  xmlLint,
-  parseSitemap,
   InvalidNewsFormat,
   NoURLError,
   NoConfigError,
@@ -16,9 +14,6 @@ import {
   normalizeURL,
   SitemapStream,
   SitemapItemStream,
-  parseSitemapIndex,
-  XMLToSitemapIndexStream,
-  IndexObjectStreamToJSON,
 } from '../index';
 
 describe('sitemap shape', () => {
@@ -35,13 +30,8 @@ describe('sitemap shape', () => {
     expect(InvalidAttrValue).toBeDefined();
     expect(SitemapIndexStream).toBeDefined();
     expect(SitemapAndIndexStream).toBeDefined();
-    expect(parseSitemap).toBeDefined();
-    expect(xmlLint).toBeDefined();
     expect(normalizeURL).toBeDefined();
     expect(SitemapStream).toBeDefined();
     expect(SitemapItemStream).toBeDefined();
-    expect(parseSitemapIndex).toBeDefined();
-    expect(XMLToSitemapIndexStream).toBeDefined();
-    expect(IndexObjectStreamToJSON).toBeDefined();
   });
 });

@@ -30,20 +30,3 @@ export {
   ReadlineStream,
   ReadlineStreamOptions,
 } from './lib/utils';
-export { xmlLint } from './lib/xmllint';
-export {
-  parseSitemap,
-  XMLToSitemapItemStream,
-  XMLToSitemapItemStreamOptions,
-  ObjectStreamToJSON,
-  ObjectStreamToJSONOptions,
-} from './lib/sitemap-parser';
-export {
-  parseSitemapIndex,
-  XMLToSitemapIndexStream,
-  XMLToSitemapIndexItemStreamOptions,
-  IndexObjectStreamToJSON,
-  IndexObjectStreamToJSONOptions,
-} from './lib/sitemap-index-parser';
-
-export { simpleSitemapAndIndex } from './lib/sitemap-simple';
