@@ -1,19 +1,12 @@
 {
-  "name": "sitemap",
-  "version": "7.1.1",
+  "name": "sitemap-with-byte-limit",
+  "version": "7.1.2",
   "description": "Sitemap-generating lib",
   "keywords": [
     "sitemap",
     "sitemap.xml"
   ],
-  "homepage": "https://github.com/ekalinin/sitemap.js#readme",
-  "bugs": {
-    "url": "https://github.com/ekalinin/sitemap.js/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ekalinin/sitemap.js.git"
-  },
+  "homepage": "https://github.com/mkeksz/sitemap.js/tree/issue/327",
   "license": "MIT",
   "author": "Eugene Kalinin <e.v.kalinin@gmail.com>",
   "main": "dist/index.js",
